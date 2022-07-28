@@ -31,7 +31,6 @@ jobs:
     executor: docker_node_executor
     steps:
       - checkout
-    
       - run: npm audit
 
 workflows:
